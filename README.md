@@ -3,7 +3,7 @@ Template repo for ChatGPT telegram bot integrated with Google Maps
 
 ![bot](img/bot_image_small.png)
 
-Works only for finding pubs, but should be extended for more categories: Concert, Restaurants, Tour, Sport, Theatre, Cinema, Arts and Culture, Family & Kids, Nightlife.
+Works only for finding venues wit Google Maps, but should be extended for more categories: Concert, Restaurants, Tour, Sport, Theatre, Cinema, Arts and Culture, Family & Kids, Nightlife.
 
 [buymeacoffee](https://buymeacoffee.com/eventally)
 
@@ -12,6 +12,8 @@ First, rename
 ```shell
 mv env.template .env
 ```
+
+Se up tg bot according to [instruction](https://github.com/aleksandr-dzhumurat/tg_ai_bot_template/blob/main/docs/telegram.md]
 
 and configure API keys: you need access to [Google Gemini](https://aistudio.google.com/), Google Places and Telegram bot token
 
