@@ -8,19 +8,19 @@ from urllib.parse import quote
 
 class GooglePlaceApi:
     def __init__(self):
-        self.API_TYPE = 'textsearch' # findplacefromtext
+        self.API_TYPE = 'textsearch'  # findplacefromtext
         self.url = f"https://maps.googleapis.com/maps/api/place/{self.API_TYPE}/json"
         self.google_api_key = os.getenv('GOOGLE_API_KEY')
 
     def shareble_link(self, lat, lng):
         # maps_url = f"https://www.google.com/maps/place/?q=place_id:{place_id}"
         location_param = quote(f'{lat},{lng}')
-        maps_url =  f"https://www.google.com/maps?q={location_param}"
+        maps_url = f"https://www.google.com/maps?q={location_param}"
         return maps_url
 
     def shareble_link_pretty(self, item):
         """ATTENTION: do NOT use to avoid additional payments, x2"""
-        place_id =  item['place_id']
+        place_id = item['place_id']
         fields = quote('name,url')
 
         params = {
@@ -37,7 +37,7 @@ class GooglePlaceApi:
     def api_request(self, q: str, lat_lng: str):
         lat, lng = lat_lng.split(',')
         radius = 5000
-        
+
         params = {
             "inputtype": "textquery",
             "fields": "formatted_address,name,place_id",
@@ -58,11 +58,11 @@ class GooglePlaceApi:
             response = response['results']
         return response
 
-    def get_recs(self, location: str, q = "Beer bar, pub"):
+    def get_recs(self, location: str, q="Beer bar, pub"):
         response = self.api_request(q, lat_lng=location)
         candidates = []
         for item in response:
-            share_link = self.shareble_link(**item['geometry']['location']) # or shareble_link_pretty(item)
+            share_link = self.shareble_link(**item['geometry']['location'])  # or shareble_link_pretty(item)
             place = {'name': item['name'], 'link': share_link}
             candidates.append(place)
         res_link = None
@@ -112,4 +112,39 @@ class GooglePlaceApi:
             return None
         return f'{latitude},{longitude}'
 
+
+class OpenStreetMapApi:
+    def __init__(self):
+        self.url = "https://overpass-api.de/api/interpreter"
+        self.belgrade_lat = 44.8176
+        self.belgrade_lng = 20.4569
+        self.radius = 5000
+
+    def search_venues(self, amenity_type: str, limit: int = 5) -> list[dict]:
+        """Search for venues in Belgrade by amenity type.
+        amenity_type can be: bar, pub, restaurant, cafe, nightclub, theatre, cinema
+        """
+        query = f"""
+        [out:json];
+        node[amenity={amenity_type}](around:{self.radius},{self.belgrade_lat},{self.belgrade_lng});
+        out {limit};
+        """
+        response = requests.post(self.url, data={"data": query})
+        elements = response.json().get("elements", [])
+
+        results = []
+        for el in elements:
+            name = el.get("tags", {}).get("name", "Unknown")
+            lat = el.get("lat")
+            lon = el.get("lon")
+            opening_hours = el.get("tags", {}).get("opening_hours", "N/A")
+            maps_link = f"https://www.google.com/maps?q={lat},{lon}"
+            results.append({
+                "name": name,
+                "opening_hours": opening_hours,
+                "link": maps_link
+            })
+        return results
+
 place_recommender = GooglePlaceApi()
+osm_api = OpenStreetMapApi()

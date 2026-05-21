@@ -12,14 +12,15 @@ from phoenix.otel import register
 from .config import BOT_USERNAME, MODEL_NAME
 from .db import get_chat_history, save_message
 from .prompts import SYSTEM_PROMPT
-from .tools import find_venue, geocode_city
+from .tools import find_concerts, find_telegram_event, find_venue, find_restaurants, find_venue_osm
 
 _phoenix_endpoint = os.environ.get('PHOENIX_COLLECTOR_ENDPOINT', 'http://localhost:6006')
 register(project_name="tg-ai-bot", endpoint=f"{_phoenix_endpoint}/v1/traces", auto_instrument=True)
 
-tools = [geocode_city, find_venue]
+
+tools = [find_telegram_event, find_venue, find_concerts,find_restaurants, find_venue_osm]
 model = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=0.1, google_api_key=os.environ['GEMINI_API_KEY'])
-model_with_tools = model.bind_tools(tools)
+model_with_tools = model.bind_tools(tools,tools_choice="auto")
 
 
 class State(TypedDict):
