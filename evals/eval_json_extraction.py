@@ -16,13 +16,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 from src.prompts import SYSTEM_PROMPT
 
-MODEL_NAME = os.environ.get("MODEL_NAME", "gemini-2.5-flash")
-model = ChatGoogleGenerativeAI(
-    model=MODEL_NAME,
-    temperature=0.1,
-    google_api_key=os.environ["GEMINI_API_KEY"]
-)
+from src.ai_agent import create_model
 
+
+model = create_model()
 
 def ask_model(messages: list) -> str:
     response = model.invoke([SystemMessage(content=SYSTEM_PROMPT)] + messages)

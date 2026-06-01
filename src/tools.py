@@ -1,10 +1,6 @@
 from langchain_core.tools import tool
 
 from .google_api import place_recommender, osm_api
-import json
-import math
-import re
-from collections import Counter
 
 import re
 import math
@@ -14,9 +10,10 @@ import os
 
 PLACEHOLDER_RE = re.compile(r'\$\{PLACEHOLDER_\d+\}')
 
-EVENTS_PATH = "/srv/data/events_dataset.jsonl"
-TICKETS_PATH = "/srv/data/concerts_en.json"
-ONTOPO_PATH = "/srv/data/ontopo_venues_en.json"
+DATA_DIR = os.environ.get("DATA_DIR", "/srv/data")
+EVENTS_PATH = os.path.join(DATA_DIR, "events_dataset.jsonl")
+TICKETS_PATH = os.path.join(DATA_DIR, "concerts_en.json")
+ONTOPO_PATH = os.path.join(DATA_DIR, "ontopo_venues_en.json")
 
 
 def _load_json(path: str) -> list[dict]:
@@ -37,9 +34,20 @@ def _load_json(path: str) -> list[dict]:
     return results
 
 
-events = _load_json(EVENTS_PATH)
-concerts = _load_json(TICKETS_PATH)
-restaurants = _load_json(ONTOPO_PATH)
+def _safe_load(path: str, name: str) -> list[dict]:
+    try:
+        return _load_json(path)
+    except FileNotFoundError:
+        print(f"WARNING: {name} data file not found at {path}. Tool will return empty results.")
+        return []
+    except Exception as e:
+        print(f"WARNING: Failed to load {name} date: {e}. Tool will return empty results.")
+        return []
+
+
+events = _safe_load(EVENTS_PATH, "events")
+concerts = _safe_load(TICKETS_PATH, "concerts")
+restaurants = _safe_load(ONTOPO_PATH, "restaurants")
 
 
 def _tokenize(text: str) -> list[str]:
