@@ -1,0 +1,405 @@
+[
+  {
+    "name": "ARSENAL FEST 2026",
+    "date": "2026-06-25/27",
+    "venue": "Knežev arsenal",
+    "city": "Kragujevac",
+    "price_from_rsd": 3000,
+    "url": "https://tickets.rs/tour/arsenal_fest_2026_2462"
+  },
+  {
+    "name": "Belgrade River Fest - Nikos Vertis",
+    "date": "2026-06-17",
+    "time": "21:00",
+    "venue": "Belgrade River Fest",
+    "city": "Belgrade",
+    "price_from_rsd": 5900,
+    "url": "https://tickets.rs/event/belgrade_river_fest_nikos_vertis_26361"
+  },
+  {
+    "name": "Vesna Zmijanac",
+    "date": "multiple",
+    "venue": "Beogradska Arena",
+    "city": "Belgrade",
+    "price_from_rsd": 1400,
+    "url": "https://tickets.rs/tour/vesna_zmijanac_2447"
+  },
+  {
+    "name": "EMPIRE OF THE SUN",
+    "date": "2026-06-11",
+    "venue": "Luka Beograd",
+    "city": "Belgrade",
+    "price_from_rsd": 4900,
+    "url": "https://tickets.rs/tour/empire_of_the_sun_2538"
+  },
+  {
+    "name": "Aleksandra Prijović",
+    "date": "2026-05-09",
+    "time": "20:00",
+    "venue": "Hala sportova Kristalna dvorana",
+    "city": "Belgrade",
+    "price_from_rsd": 2800,
+    "url": "https://tickets.rs/event/aleksandra_prijovic_25380"
+  },
+  {
+    "name": "SELAH SUE and THE GALLANDS",
+    "date": "2026-05-14",
+    "venue": "Novi Bitefartcafe",
+    "city": "Belgrade",
+    "price_from_rsd": 3500,
+    "url": "https://tickets.rs/tour/selah_sue_and_the_gallands_1385"
+  },
+  {
+    "name": "Rammstein Symphonic Experience",
+    "date": "2026-05-27",
+    "time": "20:00",
+    "venue": "Sava Centar - Plava dvorana",
+    "city": "Belgrade",
+    "price_from_rsd": 5000,
+    "url": "https://tickets.rs/event/rammstein_symphonic_experience_25729"
+  },
+  {
+    "name": "NUCCI – MORE THAN A CONCERT",
+    "date": "2026-05-19",
+    "venue": "Sava Centar - Immersive Hall",
+    "city": "Belgrade",
+    "price_from_rsd": 3000,
+    "url": "https://tickets.rs/tour/nucci_vise_od_koncerta_2720"
+  },
+  {
+    "name": "GHOST-NOTE",
+    "date": "2026-06-03",
+    "venue": "Novi Bitefartcafe",
+    "city": "Belgrade",
+    "price_from_rsd": 3000,
+    "url": "https://tickets.rs/tour/ghostnote_2625"
+  },
+  {
+    "name": "Miroslav Ilić",
+    "date": "2026-12-10",
+    "venue": "Beogradska Arena",
+    "city": "Belgrade",
+    "price_from_rsd": 1400,
+    "url": "https://tickets.rs/tour/miroslav_ilic_203"
+  },
+  {
+    "name": "Aca Lukas",
+    "date": "2026-11-04",
+    "venue": "Beogradska Arena",
+    "city": "Belgrade",
+    "price_from_rsd": 1500,
+    "url": "https://tickets.rs/tour/aca_lukas_188"
+  },
+  {
+    "name": "Magla Bend",
+    "date": "multiple",
+    "venue": "Sava Center",
+    "city": "Belgrade",
+    "price_from_rsd": 2800,
+    "url": "https://tickets.rs/tour/magla_bend_2411"
+  },
+  {
+    "name": "André Rieu",
+    "date": "2026-11-19",
+    "venue": "Beogradska Arena",
+    "city": "Belgrade",
+    "price_from_rsd": 5500,
+    "url": "https://tickets.rs/tour/andre_rieu_376"
+  },
+  {
+    "name": "K-POP FOREVER!",
+    "date": "2026-12-09",
+    "venue": "Sava Center",
+    "city": "Belgrade",
+    "price_from_rsd": 4000,
+    "url": "https://tickets.rs/tour/kpop_forever_2482"
+  },
+  {
+    "name": "Mira Škorić",
+    "date": "2026-11-19",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2000,
+    "url": "https://tickets.rs/tour/mira_skoric_2550"
+  },
+  {
+    "name": "BOKI 13",
+    "date": "2026-12-12",
+    "venue": "Beogradska Arena",
+    "city": "Belgrade",
+    "price_from_rsd": 1500,
+    "url": "https://tickets.rs/tour/boki_13_2678"
+  },
+  {
+    "name": "Marija Šerifović",
+    "date": "multiple",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/marija_serifovic_1744"
+  },
+  {
+    "name": "IVANA PETERS - MY THING",
+    "date": "2026-06-12",
+    "venue": "Pivnica Tchardak",
+    "city": "Valjevo",
+    "price_from_rsd": 1300,
+    "url": "https://tickets.rs/tour/ivana_peters_moja_stvar_2657"
+  },
+  {
+    "name": "ARTMORIA",
+    "date": "2026-05-17",
+    "venue": "Kolarčeva zadužbina",
+    "city": "Belgrade",
+    "price_from_rsd": 1400,
+    "url": "https://tickets.rs/tour/artmoria_2505"
+  },
+  {
+    "name": "CECA",
+    "date": "multiple",
+    "venue": "multiple",
+    "city": "multiple",
+    "price_from_rsd": 2000,
+    "url": "https://tickets.rs/tour/ceca_2679"
+  },
+  {
+    "name": "Amy LaVere & Will Sexton",
+    "date": "2026-05-12",
+    "venue": "KC GRAD",
+    "city": "Belgrade",
+    "price_from_rsd": 2000,
+    "url": "https://tickets.rs/tour/amy_lavere_will_sexton_2701"
+  },
+  {
+    "name": "Jack Savoretti",
+    "date": "2026-09-23",
+    "venue": "Nova Zappa Barka",
+    "city": "Belgrade",
+    "price_from_rsd": 3900,
+    "url": "https://tickets.rs/tour/jack_savoretti_2696"
+  },
+  {
+    "name": "ZOSTER",
+    "date": "2026-06-19",
+    "venue": "Luka Beograd",
+    "city": "Belgrade",
+    "price_from_rsd": 2100,
+    "url": "https://tickets.rs/tour/zoster_1330"
+  },
+  {
+    "name": "Amira Medunjanin",
+    "date": "2026-12-04",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/amira_medunjanin_577"
+  },
+  {
+    "name": "NOVI FOSILI",
+    "date": "2026-12-06",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/novi_fosili_2675"
+  },
+  {
+    "name": "Nadja (CA) - Drone Doom Legends",
+    "date": "2026-09-03",
+    "venue": "Karmakoma Club",
+    "city": "Belgrade",
+    "price_from_rsd": 2200,
+    "url": "https://tickets.rs/tour/nadja_ca_drone_doom_legends_2741"
+  },
+  {
+    "name": "ABBA Symphonic Tribute Show",
+    "date": "2026-12-23",
+    "venue": "Sava Center",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/abba_symphonic_tribute_show_2695"
+  },
+  {
+    "name": "HARI MATA HARI",
+    "date": "multiple",
+    "venue": "multiple",
+    "city": "multiple",
+    "price_from_rsd": 3000,
+    "url": "https://tickets.rs/tour/hari_mata_hari_510"
+  },
+  {
+    "name": "Bi-2",
+    "date": "2026-10-20",
+    "venue": "Hangar u Luci Beograd",
+    "city": "Belgrade",
+    "price_from_rsd": 4999,
+    "url": "https://tickets.rs/tour/bi2_2739"
+  },
+  {
+    "name": "Emina Jahović",
+    "date": "2026-10-03",
+    "venue": "Beogradska Arena",
+    "city": "Belgrade",
+    "price_from_rsd": 2000,
+    "url": "https://tickets.rs/tour/emina_jahovic_2217"
+  },
+  {
+    "name": "(ab)normal",
+    "date": "2026-06-13",
+    "venue": "Botanička bašta",
+    "city": "Belgrade",
+    "price_from_rsd": 1500,
+    "url": "https://tickets.rs/tour/nenormalni_2141"
+  },
+  {
+    "name": "IDLES",
+    "date": "2026-06-26",
+    "venue": "New Textil",
+    "city": "Belgrade",
+    "price_from_rsd": 4700,
+    "url": "https://tickets.rs/tour/idles_2412"
+  },
+  {
+    "name": "Cavalera Conspiracy",
+    "date": "2026-07-14",
+    "venue": "Dorćol Platz",
+    "city": "Belgrade",
+    "price_from_rsd": 4500,
+    "url": "https://tickets.rs/tour/cavalera_conspiracy_2723"
+  },
+  {
+    "name": "Turandot - Chinese National Opera",
+    "date": "2026-06-22",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 4800,
+    "url": "https://tickets.rs/tour/turandot_kineska_nacionalna_opera_2498"
+  },
+  {
+    "name": "AUTECHRE",
+    "date": "2026-10-01",
+    "venue": "Ložionica",
+    "city": "Belgrade",
+    "price_from_rsd": 3200,
+    "url": "https://tickets.rs/tour/autechre_2460"
+  },
+  {
+    "name": "Parni Valjak",
+    "date": "2026-05-16",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2800,
+    "url": "https://tickets.rs/tour/parni_valjak_2507"
+  },
+  {
+    "name": "Rundek, Haustor & Crew",
+    "date": "2026-06-05/06",
+    "venue": "Luka Belgrade",
+    "city": "Belgrade",
+    "price_from_rsd": 3200,
+    "url": "https://tickets.rs/tour/rundek_ekipa_1705"
+  },
+  {
+    "name": "ŽELJKO SAMARDŽIĆ",
+    "date": "multiple",
+    "venue": "Sava Center",
+    "city": "Belgrade",
+    "price_from_rsd": 2900,
+    "url": "https://tickets.rs/tour/zeljko_samardzic_498"
+  },
+  {
+    "name": "The Flaming Lips",
+    "date": "2026-06-22",
+    "venue": "Luka Beograd",
+    "city": "Belgrade",
+    "price_from_rsd": 3950,
+    "url": "https://tickets.rs/tour/the_flaming_lips_2465"
+  },
+  {
+    "name": "GOBLINI",
+    "date": "2026-06-13",
+    "venue": "Luka Beograd",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/goblini_2539"
+  },
+  {
+    "name": "SOYUZ IN BELGRADE",
+    "date": "2026-09-26",
+    "venue": "Karmakoma club",
+    "city": "Belgrade",
+    "price_from_rsd": 2200,
+    "url": "https://tickets.rs/tour/_soyuz_in_belgrade_2753"
+  },
+  {
+    "name": "Ilda Šaulić",
+    "date": "2026-11-26",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/ilda_saulic_2686"
+  },
+  {
+    "name": "Gospon tamburaši",
+    "date": "2026-10-21",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 2500,
+    "url": "https://tickets.rs/tour/gospon_tamburasi_2630"
+  },
+  {
+    "name": "PUBLIC IMAGE LTD",
+    "date": "2026-05-18",
+    "venue": "Nova Zappa Barka",
+    "city": "Belgrade",
+    "price_from_rsd": 5000,
+    "url": "https://tickets.rs/tour/public_image_ltd_2693"
+  },
+  {
+    "name": "Kralj Ibi",
+    "date": "2026-05-23",
+    "venue": "Centar za kulturu i turizam Mladenovac",
+    "city": "Mladenovac",
+    "price_from_rsd": 3500,
+    "url": "https://tickets.rs/tour/kralj_ibi_2714"
+  },
+  {
+    "name": "NBG",
+    "date": "2026-05-07",
+    "venue": "Zappa Baza",
+    "city": "Belgrade",
+    "price_from_rsd": 1200,
+    "url": "https://tickets.rs/tour/nbg_2725"
+  },
+  {
+    "name": "Mitsko Biće",
+    "date": "2026-05-30",
+    "venue": "SKC Baza",
+    "city": "Belgrade",
+    "price_from_rsd": 1200,
+    "url": "https://tickets.rs/tour/mitsko_bice_2546"
+  },
+  {
+    "name": "Breaking Benjamin",
+    "date": "2026-06-30",
+    "venue": "New tekstil",
+    "city": "Belgrade",
+    "price_from_rsd": 4500,
+    "url": "https://tickets.rs/tour/breaking_benjamin_2486"
+  },
+  {
+    "name": "Garou. The Best Of.",
+    "date": "2026-09-26",
+    "venue": "Sava Centar",
+    "city": "Belgrade",
+    "price_from_rsd": 3500,
+    "url": "https://tickets.rs/tour/garou_the_best_of_2629"
+  },
+  {
+    "name": "Godsmack",
+    "date": "2026-07-26",
+    "venue": "Luka Beograd",
+    "city": "Belgrade",
+    "price_from_rsd": 4500,
+    "url": "https://tickets.rs/tour/godsmack_2523"
+  }
+]

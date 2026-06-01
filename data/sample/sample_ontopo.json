@@ -1,0 +1,471 @@
+[
+  {
+    "name": "Angry Monk",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Asian",
+      "Cocktails",
+      "Fine dining",
+      "Japanese",
+      "Sushi"
+    ],
+    "description": "Asian fusion fine dining since 2019 – bold flavors, atmosphere of Tokyo and Kyoto.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/38220717"
+  },
+  {
+    "name": "Mama Shelter",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Cocktails",
+      "Dance bar",
+      "Rooftop"
+    ],
+    "description": "Local cuisine, wood-fired pizzas, Mediterranean dishes, rooftop views, DJs at night.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/47371063"
+  },
+  {
+    "name": "Kuma Beach Lounge & Events",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Beach bar",
+      "Lounge"
+    ],
+    "description": "Relaxed urban hedonism with sun loungers, carefully selected food and a wonderful atmosphere.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/21926939"
+  },
+  {
+    "name": "Jamie's Italian",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Cocktails",
+      "Romantic",
+      "Italian"
+    ],
+    "description": "Jamie Oliver Restaurants brand – a blend of authentic Italian ingredients and local produce.",
+    "city": "Belgrade",
+    "location": "Belgrade Waterfront",
+    "url": "https://ontopo.com/sr/rs/page/25803912"
+  },
+  {
+    "name": "Malo Ribarsko Selo Restaurant",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Fish",
+      "Seafood"
+    ],
+    "description": "Authentic flavors of the Montenegrin coast – fresh fish, seafood, and an extensive wine list.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/66470437"
+  },
+  {
+    "name": "Enso Restaurant",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Fusion",
+      "French cuisine",
+      "Serbian cuisine",
+      "Oriental cuisine"
+    ],
+    "description": "A blend of modern French, Serbian and Oriental cuisine with a seasonal menu.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/18548193"
+  },
+  {
+    "name": "Cveće Zla",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "International",
+      "Fine dining",
+      "Romantic"
+    ],
+    "description": "Beautiful garden, DJ performances and top-notch cuisine in the heart of the city.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/13803670"
+  },
+  {
+    "name": "Livnica Dorćol Restaurant",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Meat",
+      "Garden",
+      "International"
+    ],
+    "description": "A former foundry – modern restaurant and gastro bar in the heart of Dorćol.",
+    "city": "Belgrade",
+    "location": "Dorćol",
+    "url": "https://ontopo.com/sr/rs/page/14869167"
+  },
+  {
+    "name": "Buena Vida",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Mexican",
+      "Cocktails",
+      "Brunch"
+    ],
+    "description": "Colors and flavors of Mexico, creative food and drinks in a warm atmosphere.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/39260773"
+  },
+  {
+    "name": "La Pista Restaurant",
+    "category": "restaurant",
+    "subcategory": "recommended",
+    "tags": [
+      "Italian",
+      "Fine dining",
+      "Mountain"
+    ],
+    "description": "The first fine dining restaurant on Kopaonik – authentic Italian cuisine with a mountain view.",
+    "city": "Kopaonik",
+    "url": "https://ontopo.com/sr/rs/page/61812374"
+  },
+  {
+    "name": "Velika Skadarlija",
+    "category": "restaurant",
+    "subcategory": "traditional",
+    "tags": [
+      "Romantic",
+      "Live performances",
+      "Traditional"
+    ],
+    "description": "Bohemian evenings in Skadarlija – national and international cuisine, warm hospitality.",
+    "city": "Belgrade",
+    "location": "Skadarlija",
+    "url": "https://ontopo.com/sr/rs/page/93478535"
+  },
+  {
+    "name": "Šešir Moj",
+    "category": "restaurant",
+    "subcategory": "traditional",
+    "tags": [
+      "Meat",
+      "Live performances",
+      "Traditional"
+    ],
+    "description": "A blend of traditional cuisine and a modern approach in bohemian Belgrade.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/35321943"
+  },
+  {
+    "name": "Beogradska Mehana",
+    "category": "restaurant",
+    "subcategory": "traditional",
+    "tags": [
+      "Meat",
+      "Live performances",
+      "Traditional"
+    ],
+    "description": "Warm atmosphere, authentic tavern recipes and one of the most beautiful gardens in Skadarlija.",
+    "city": "Belgrade",
+    "location": "Skadarlija",
+    "url": "https://ontopo.com/sr/rs/page/68587015"
+  },
+  {
+    "name": "Milošev Konak Restaurant",
+    "category": "restaurant",
+    "subcategory": "traditional",
+    "tags": [
+      "Traditional",
+      "Meat",
+      "Live performances"
+    ],
+    "description": "A blend of tradition and elegance – the place for celebrations and memories of the Belgrade spirit.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/95310050"
+  },
+  {
+    "name": "Klub Književnika",
+    "category": "restaurant",
+    "subcategory": "michelin",
+    "tags": [
+      "Romantic",
+      "International",
+      "Wine bar"
+    ],
+    "description": "A selection of Serbian and French cuisine – local ingredients with a global DNA.",
+    "city": "Belgrade",
+    "michelin": true,
+    "url": "https://ontopo.com/sr/rs/page/22467232"
+  },
+  {
+    "name": "Comunale Café e Cucina",
+    "category": "restaurant",
+    "subcategory": "michelin",
+    "tags": [
+      "Italian",
+      "Mediterranean",
+      "Wine bar"
+    ],
+    "description": "The best of Italian and Mediterranean cuisine with a Josper grill and carefully selected wine list.",
+    "city": "Belgrade",
+    "michelin": true,
+    "url": "https://ontopo.com/sr/rs/page/22591965"
+  },
+  {
+    "name": "Iva New Balkan Cuisine",
+    "category": "restaurant",
+    "subcategory": "michelin",
+    "tags": [
+      "Fusion",
+      "International"
+    ],
+    "description": "New Balkan Cuisine bistro in Dorćol – Bib Gourmand 4 years in a row.",
+    "city": "Belgrade",
+    "location": "Dorćol",
+    "michelin": true,
+    "michelin_award": "Bib Gourmand",
+    "url": "https://ontopo.com/sr/rs/page/57091940"
+  },
+  {
+    "name": "The Twenty Two",
+    "category": "restaurant",
+    "subcategory": "michelin",
+    "tags": [
+      "Fine dining",
+      "Rooftop",
+      "International"
+    ],
+    "description": "On top of the Metropol Palace hotel – modern cuisine with an unforgettable view of Belgrade.",
+    "city": "Belgrade",
+    "michelin": true,
+    "url": "https://ontopo.com/sr/rs/page/42183879"
+  },
+  {
+    "name": "Restaurant 27",
+    "category": "restaurant",
+    "subcategory": "michelin",
+    "tags": [
+      "Fish",
+      "International",
+      "Garden",
+      "Wine bar"
+    ],
+    "description": "A restaurant in love with its guests – there when it needs to be perfect.",
+    "city": "Belgrade",
+    "michelin": true,
+    "url": "https://ontopo.com/sr/rs/page/38584904"
+  },
+  {
+    "name": "Kaldi Belgrade Waterfront",
+    "category": "restaurant",
+    "subcategory": "waterfront",
+    "tags": [
+      "International",
+      "Cocktails",
+      "Wine bar"
+    ],
+    "description": "Breakfast, lunch or dinner at the Waterfront – desserts, wines, cocktails.",
+    "city": "Belgrade",
+    "location": "Belgrade Waterfront",
+    "url": "https://ontopo.com/sr/rs/page/51135259"
+  },
+  {
+    "name": "Savanova",
+    "category": "restaurant",
+    "subcategory": "waterfront",
+    "tags": [
+      "International",
+      "Riverside"
+    ],
+    "description": "Sunset as an invitation to indulge – dinner as a ritual to remember.",
+    "city": "Belgrade",
+    "location": "Belgrade Waterfront",
+    "url": "https://ontopo.com/sr/rs/page/60420131"
+  },
+  {
+    "name": "Docker Brewery",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Beer",
+      "Meat",
+      "Craft beer"
+    ],
+    "description": "Belgrade's beer port – 36 taps with the best local and regional beers.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/27479987"
+  },
+  {
+    "name": "Jackson Pub",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Craft beer",
+      "Pub",
+      "Darts"
+    ],
+    "description": "Craft beer, food and fun with darts in the heart of Belgrade.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/31214687"
+  },
+  {
+    "name": "Gradska Pivnica Terazije",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Beer",
+      "Live music",
+      "Food"
+    ],
+    "description": "Great food, coffee, beer and live music in the center of Belgrade.",
+    "city": "Belgrade",
+    "location": "Terazije",
+    "url": "https://ontopo.com/sr/rs/page/60609364"
+  },
+  {
+    "name": "Central Pub",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Beer"
+    ],
+    "description": "12 draught and 40+ bottled beers – everyone finds something to their taste.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/81925766"
+  },
+  {
+    "name": "Polly Wine Bar",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Wine bar",
+      "Natural wines"
+    ],
+    "description": "Natural wines from producers, imported wines and a rotating menu based on local products.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/61937086"
+  },
+  {
+    "name": "Program",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Coffee",
+      "Dance bar",
+      "Sports"
+    ],
+    "description": "Bar and club combining sports, music and entertainment in a relaxed modern setting.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/48191508"
+  },
+  {
+    "name": "Nula Pet Bar",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Cocktails",
+      "DJ",
+      "Dance bar",
+      "Nightclub"
+    ],
+    "description": "Belgrade's iconic hedonist bar in the city center – great fun, affordable prices.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/96353361"
+  },
+  {
+    "name": "Ljubica",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Garden",
+      "Fusion"
+    ],
+    "description": "A home with history, a garden that breathes – where Bali and Morocco meet Belgrade.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/39926846"
+  },
+  {
+    "name": "Club Kult",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Dance bar",
+      "Cocktails",
+      "Nightclub"
+    ],
+    "description": "Voted best club in the region – epicenter of culture.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/75085809"
+  },
+  {
+    "name": "Crust Pizzabar",
+    "category": "bar",
+    "subcategory": "bar",
+    "tags": [
+      "Italian",
+      "Cocktails",
+      "Garden",
+      "Pizza"
+    ],
+    "description": "Neapolitan tradition with local ingredients – authentic Neapolitan pizza with a Balkan spirit.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/34206569"
+  },
+  {
+    "name": "Senjak Bistro Bar",
+    "category": "bistro",
+    "subcategory": "bistro",
+    "tags": [
+      "Business",
+      "Mediterranean"
+    ],
+    "description": "In the Radisson Collection Old Mill Hotel – tradition and contemporary style in an old mill setting.",
+    "city": "Belgrade",
+    "location": "Senjak / Radisson Collection Old Mill",
+    "url": "https://ontopo.com/sr/rs/page/32915087"
+  },
+  {
+    "name": "Lola Bistro",
+    "category": "bistro",
+    "subcategory": "bistro",
+    "tags": [
+      "Wine bar",
+      "International",
+      "Serbian cuisine"
+    ],
+    "description": "Premium bistro and wine restaurant – modern international and Serbian cuisine, top-quality wines.",
+    "city": "Belgrade",
+    "url": "https://ontopo.com/sr/rs/page/67038839"
+  },
+  {
+    "name": "TT Asia Dorćol",
+    "category": "bistro",
+    "subcategory": "bistro",
+    "tags": [
+      "Asian",
+      "Sushi",
+      "Casual"
+    ],
+    "description": "The biggest Philadelphia roll in the city, ramen, sushi and an excellent selection of cocktails.",
+    "city": "Belgrade",
+    "location": "Dorćol",
+    "url": "https://ontopo.com/sr/rs/page/11448120"
+  },
+  {
+    "name": "Brera Dorćol",
+    "category": "bistro",
+    "subcategory": "bistro",
+    "tags": [
+      "Brunch",
+      "Wine bar",
+      "International"
+    ],
+    "description": "The spirit of Dorćol meets the charm of London and the elegance of Scandinavia – brunch, homemade teas.",
+    "city": "Belgrade",
+    "location": "Dorćol",
+    "url": "https://ontopo.com/sr/rs/page/55308114"
+  }
+]
