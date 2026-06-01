@@ -122,11 +122,11 @@ def find_telegram_event(
         return "No events found in database."
 
     combined_query = f"{query} {constraints}".strip()
-    results = _bm25_search(events, combined_query, top_k=1)
+    results = _bm25_search(events, combined_query, top_k=3)
     if not results:
         return "No matching event found."
 
-    return _format_telegram_event(results[0])
+    return "\n\n---\n\n".join(_format_telegram_event(r) for r in results)
 
 
 @tool
@@ -136,7 +136,7 @@ def find_concerts(query: str) -> str:
     if not concerts:
         return "No concerts found in database."
 
-    results = _bm25_search(concerts, query, top_k=1)
+    results = _bm25_search(concerts, query, top_k=3)
     if not results:
         return "No matching concert found."
 
@@ -156,7 +156,7 @@ def find_restaurants(query: str) -> str:
     if not restaurants:
         return "No restaurants found in database."
 
-    results = _bm25_search(restaurants, query, top_k=1)
+    results = _bm25_search(restaurants, query, top_k=3)
     if not results:
         return "No matching restaurant found."
 
@@ -178,7 +178,10 @@ def find_venue(query: str) -> str:
     result = place_recommender.get_recs(BELGRADE_LAT_LNG, q=query)
     if not result:
         return "No places found."
-    return f'<a href="{result["link"]}">{result["name"]}</a>'
+    return "\n\n".join(
+        f'<a href="{r["link"]}">{r["name"]}</a>'
+        for r in result
+    )
 
 
 @tool

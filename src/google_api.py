@@ -65,14 +65,12 @@ class GooglePlaceApi:
             share_link = self.shareble_link(**item['geometry']['location'])  # or shareble_link_pretty(item)
             place = {'name': item['name'], 'link': share_link}
             candidates.append(place)
-        res_link = None
-        if len(candidates) > 0:
-            res_link = np.random.choice(candidates)
-        else:
-            print('ERROR: failed to recomend %s', q)
-        return res_link
+        if not candidates:
+            print('ERROR: Failed to recommend %s', q)
+            return []
+        return candidates[:3]
 
-    def reverse_geocode(self, lat: float, lng: float) -> dict | None:
+    def reverse_geocode(self, lat: float, lng: float) -> Optional[dict]:
         """Return {'city': ..., 'country': ...} from GPS coordinates, or None on failure."""
         params = {
             "latlng": f"{lat},{lng}",

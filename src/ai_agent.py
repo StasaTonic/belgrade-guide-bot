@@ -1,5 +1,6 @@
 import os
 import uuid
+import time
 from typing import Annotated, List, TypedDict
 
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage
@@ -14,12 +15,23 @@ from .db import get_chat_history, save_message
 from .prompts import SYSTEM_PROMPT
 from .tools import find_concerts, find_telegram_event, find_venue, find_restaurants, find_venue_osm
 
+
+def create_model() -> ChatGoogleGenerativeAI:
+    """Factory function to create the Gemini model. Import this in other modules instead of instantiating directly."""
+    return ChatGoogleGenerativeAI(
+        model=MODEL_NAME,
+        temperature=0.1,
+        google_api_key=os.environ['GEMINI_API_KEY']
+    )
+
+model = create_model()
+
+
 _phoenix_endpoint = os.environ.get('PHOENIX_COLLECTOR_ENDPOINT', 'http://localhost:6006')
 register(project_name="tg-ai-bot", endpoint=f"{_phoenix_endpoint}/v1/traces", auto_instrument=True)
 
 
-tools = [find_telegram_event, find_venue, find_concerts,find_restaurants, find_venue_osm]
-model = ChatGoogleGenerativeAI(model=MODEL_NAME, temperature=0.1, google_api_key=os.environ['GEMINI_API_KEY'])
+tools = [find_telegram_event, find_venue, find_concerts, find_restaurants, find_venue_osm]
 model_with_tools = model.bind_tools(tools,tools_choice="auto")
 
 
@@ -29,8 +41,20 @@ class State(TypedDict):
 
 def agent_node(state: State):
     messages = [SystemMessage(content=SYSTEM_PROMPT)] + state["messages"]
-    response = model_with_tools.invoke(messages)
-    return {"messages": [response]}
+
+    for attempt in range(3):
+        try:
+            response = model_with_tools.invoke(messages)
+            return {"messages": [response]}
+        except Exception as e:
+            if attempt < 2:
+                print(f"LLM call failed (attempt {attempt + 1}/3): {e}. Retrying...")
+                time.sleep(2 ** attempt)  # 1s, 2s backoff
+            else:
+                print(f"LLM call failed after 3 attempts: {e}")
+                fallback = AIMessage(
+                    content="I'm sorry, I'm having trouble connecting right now. Please try again in a moment.")
+                return {"messages": [fallback]}
 
 
 tool_node = ToolNode(tools)
